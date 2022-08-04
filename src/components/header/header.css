@@ -1,5 +1,5 @@
 header {
-    height: 100vh;
+    height: 120vh;
     padding-top: 7rem;
     overflow: hidden;
 }
@@ -48,12 +48,13 @@ header {
     margin-top: 4rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
-    padding: 7rem 1.5rem 1.5rem 1.5rem;
+    padding: 7rem 1rem 1rem 1rem;
 }
 .me__content{
-    width: 35rem;
+    width: 40rem;
     height: auto;
     position: absolute;
+    top: -70%;
     left: -30%;
 }
 

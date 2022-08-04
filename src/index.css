@@ -84,10 +84,12 @@ a{
     color: var(--color-primary);
     transition: var(--transition);
 }
+
 a:hover{
     color: var(--color-light);
 }
 .btn{
+    background: var(--color-bg);
     width: max-content;
     display: inline-block;
     color: var(--color-white);
@@ -97,6 +99,10 @@ a:hover{
     border: 1px solid var(--color-primary);
     transition: var(--transition);
 }
+.btn a{
+    color: var(--color-white);
+    font-size: 1.2rem;
+}
 .btn:hover{
     background: var(--color-bg-variant);
     color: var(--color-white);
@@ -104,9 +110,20 @@ a:hover{
 }
 
 .btn-primary{
+    padding: 0;
     background: var(--color-white);
     color: var(--color-black);
     border-color: var(--color-white);
+}
+.btn-primary a:hover{
+    color: var(--color-white);
+    transition: var(0);
+}
+.btn-primary a{
+    padding: 0.8rem 1rem;
+    color: var(--color-bg);
+    font-size: 1.1rem;
+
 }
 
 img{
