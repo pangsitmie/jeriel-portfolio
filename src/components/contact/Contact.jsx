@@ -4,7 +4,7 @@ import { MdOutlineEmail } from "react-icons/md";
 import { BsLinkedin } from "react-icons/bs";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
-
+import { motion } from "framer-motion";
 const Contact = () => {
   const form = useRef();
 
@@ -32,9 +32,9 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact">
-      <h5>Get In Touch</h5>
-      <h2>Contact Me</h2>
+    <section id="contact" className="text">
+      <h5 className='text-subtitle'>Get In Touch</h5>
+      <h2 className='text-title'>Contact Me</h2>
 
       <div className="container contact__container">
         <div className="contact__options">
@@ -78,10 +78,15 @@ const Contact = () => {
             rows="7"
             placeholder="Your Message required"
           ></textarea>
-          <button type="submit" className="btn btn-primary">
+          <motion.button
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+            type="submit" className="btn btn-primary"
+          >
             {" "}
             Send Message
-          </button>
+          </motion.button>
+
         </form>
       </div>
     </section>

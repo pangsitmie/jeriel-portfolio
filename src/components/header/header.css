@@ -4,6 +4,37 @@ header {
     overflow: hidden;
 }
 
+.wave {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wave svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 192px;
+}
+
+.wave .shape-fill {
+    fill: #FFFFFF;
+}
+
+.spacer {
+    aspect-ratio: 960/300;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.layer1 {
+    background-image: url('../../assets/layer1.svg');
+}
 
 .header__container {
     text-align: center;
@@ -12,7 +43,7 @@ header {
 }
 
 /* ======================= CTA ===================== */
-.cta{
+.cta {
     margin-top: 2.5rem;
     display: flex;
     gap: 1.2rem;
@@ -20,7 +51,7 @@ header {
 }
 
 /* ======================= HEADER SOCIALS ===================== */
-.header__socials{
+.header__socials {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -42,20 +73,21 @@ header {
 .me {
     background: linear-gradient(var(--color-primary), transparent);
     width: 22rem;
-    height: 30rem;
+    height: 35rem;
     position: absolute;
     left: calc(50% - 11rem);
     margin-top: 4rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
-    padding: 7rem 1rem 1rem 1rem;
+    padding: 7rem 1.5rem 1.5rem 1.5rem;
 }
-.me__content{
-    width: 40rem;
+
+.me__content {
+    width: 45rem;
     height: auto;
     position: absolute;
-    top: -70%;
-    left: -30%;
+    top: -40%;
+    left: -57%;
 }
 
 /* ======================= SCROLL DOWN ===================== */
@@ -69,20 +101,21 @@ header {
 }
 
 /* )==============================MEDIA QUERIES (MEDIUM DEVICES)============================== */
-@media screen and (max-width: 1024px){
-    header{
+@media screen and (max-width: 1024px) {
+    header {
         height: 68vh;
     }
 }
 
 
 /* )==============================MEDIA QUERIES (SMALL DEVICES)============================== */
-@media screen and (max-width: 600px){
-    header{
-        height: 100vh;
+@media screen and (max-width: 600px) {
+    header {
+        height: 110vh;
     }
+
     .header__socials,
-    .scroll__down{
+    .scroll__down {
         display: none;
     }
 }

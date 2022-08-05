@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./header0.css";
 import {
   Animator,
   ScrollContainer,
@@ -26,19 +26,19 @@ const header0 = () => {
     <ScrollContainer>
       <ScrollPage page={0}>
         <Animator animation={batch(Sticky(), Fade(), MoveOut(0, -200))}>
-          <h2 style={{ fontSize: "60px" }}>Hello World...</h2>
+          <h2 className="scroll-text">Hello World...</h2>
         </Animator>
       </ScrollPage>
 
       <ScrollPage page={1}>
         <Animator animation={ZoomInScrollOut}>
-          <h2 style={{ fontSize: "60px" }}>I'm Jeriel</h2>
+          <h2 className="scroll-text">I'm Jeriel</h2>
         </Animator>
       </ScrollPage>
 
       <ScrollPage page={2}>
         <Animator animation={FadeUp}>
-          <h2 style={{ fontSize: "60px" }}>It's nice to meet you!</h2>
+          <h3 className="scroll-text">Nice to meet you!</h3>
         </Animator>
       </ScrollPage>
     </ScrollContainer>

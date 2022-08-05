@@ -1,0 +1,13 @@
+.scroll-text {
+    text-align: center;
+    font-size: 60px;
+}
+
+/* )==============================MEDIA QUERIES (MEDIUM DEVICES)============================== */
+
+/* )==============================MEDIA QUERIES (SMALL DEVICES)============================== */
+@media screen and (max-width: 600px) {
+    .small {
+        font-size: 40px;
+    }
+}

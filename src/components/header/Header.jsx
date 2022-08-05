@@ -1,27 +1,42 @@
 import React from "react";
 import "./header.css";
 import CTA from "./CTA";
-import ME from "../../assets/jeriel_profile.jpg";
+import ME from "../../assets/jeriel_about.png";
 import HeaderSocials from "./HeaderSocials";
+import { motion } from "framer-motion";
+import {
+  batch,
+  Fade,
+  FadeIn,
+  Move,
+  Sticky,
+  StickyIn,
+  ZoomIn,
+} from "react-scroll-motion";
+const ZoomInScrollOut = batch(StickyIn(), FadeIn(), ZoomIn());
+const FadeUp = batch(Fade(), Sticky(), Move());
 
 const header = () => {
   return (
     <header>
       <div className="container header__container">
-        <h5>Hi I'm</h5>
-        <h1>Jeriel Isaiah Layantara</h1>
-        <h5 className="text-light">Software Engineer</h5>
+
+        <h1>Jeriel Isaiah</h1>
+        <h5 className="text-light">Software Engineer & Android Engineer</h5>
         <CTA />
         <HeaderSocials />
 
-        <div className="me">
+        <motion.div className="me" animation={ZoomInScrollOut}>
           <img src={ME} className="me__content" alt="me" />
-        </div>
+        </motion.div>
 
         <a href="#contact" className="scroll__down">
           Scroll Down
         </a>
       </div>
+
+
+
     </header>
   );
 };

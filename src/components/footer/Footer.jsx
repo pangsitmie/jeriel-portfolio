@@ -1,27 +1,28 @@
 import React from 'react'
 import './footer.css'
-import {BsLinkedin} from 'react-icons/bs'
-import {BsGithub} from 'react-icons/bs'
-import {BsInstagram} from 'react-icons/bs'
+import { BsLinkedin } from 'react-icons/bs'
+import { BsGithub } from 'react-icons/bs'
+import { BsInstagram } from 'react-icons/bs'
+import { motion } from "framer-motion";
 
 const Footer = () => {
   return (
     <footer>
-      <a href="/#" className='footer__logo'>JERIEL ISAIAH LAYANTARA</a>
+      <motion.a href="/#" whileHover={{ scale: 1.1 }} className='footer__logo'>JERIEL ISAIAH LAYANTARA</motion.a>
 
       <ul className='permalinks'>
-        <li><a href="/#">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#experience">Experiencve</a></li>
-        <li><a href="#services">Service</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <motion.li whileHover={{ scale: 1.1 }}><a href="/#">Home</a></motion.li>
+        <motion.li whileHover={{ scale: 1.1 }}><a whileHover={{ scale: 1.1 }} href="#about">About</a></motion.li>
+        <motion.li whileHover={{ scale: 1.1 }}><a whileHover={{ scale: 1.1 }} href="#experience">Experiencve</a></motion.li>
+        <motion.li whileHover={{ scale: 1.1 }}><a whileHover={{ scale: 1.1 }} href="#services">Service</a></motion.li>
+        <motion.li whileHover={{ scale: 1.1 }}><a whileHover={{ scale: 1.1 }} href="#portfolio">Portfolio</a></motion.li>
+        <motion.li whileHover={{ scale: 1.1 }}><a whileHover={{ scale: 1.1 }} href="#contact">Contact</a></motion.li>
       </ul>
 
       <div className="footer__socials">
-        <a href="https://www.linkedin.com/in/jeriel-isaiah-layantara/" target='_blank' rel="noreferrer"><BsLinkedin/></a>
-        <a href="https://github.com/pangsitmie" target='_blank' rel="noreferrer"><BsGithub/></a>
-        <a href="https://www.instagram.com/jerielisaiah/" target='_blank' rel="noreferrer"><BsInstagram/></a>
+        <motion.a whileHover={{ scale: 1.1 }} href="https://www.linkedin.com/in/jeriel-isaiah-layantara/" target='_blank' rel="noreferrer"><BsLinkedin /></motion.a>
+        <motion.a whileHover={{ scale: 1.1 }} href="https://github.com/pangsitmie" target='_blank' rel="noreferrer"><BsGithub /></motion.a>
+        <motion.a whileHover={{ scale: 1.1 }} href="https://www.instagram.com/jerielisaiah/" target='_blank' rel="noreferrer"><BsInstagram /></motion.a>
       </div>
 
       <div className="footer__copyright">

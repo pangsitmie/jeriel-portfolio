@@ -1,7 +1,6 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     border: 0;
@@ -10,8 +9,9 @@
     list-style: none;
     text-decoration: none;
 }
+
 /* #3BBA9C; */
-:root{
+:root {
     --color-bg: #0A192F;
     --color-bg-variant: #112240;
     /* --color-primary: #3BBA9C;
@@ -21,27 +21,30 @@
     /* --color-bg: #FCF7FF;
     --color-bg-variant: #e3e3e3; */
     --color-primary: #61F8D4;
-    --color-primary-variant: rgba(77,181,255,0.4);
+    --color-primary-variant: #4db5ff66;
     --color-white: #FFF;
     --color-black: #1C1C1C;
-    --color-light: rgba(255, 255,255,0.6);
-    --color-dark: rgba(0, 0,0,0.7);
+    --color-light: rgba(255, 255, 255, 0.6);
+    --color-dark: rgba(0, 0, 0, 0.7);
 
-    --transition: all 400ms ease;;
+    --transition: all 400ms ease;
+    ;
 
     --container-width-lg: 75%;
     --container-width-md: 86%;
     --container-width-sm: 90%;
 
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     display: none;
 }
-body{
+
+body {
     font-family: "Poppins", sans-serif;
     background: var(--color-bg);
     color: var(--color-white);
@@ -50,45 +53,52 @@ body{
 }
 
 /* General Syyles */
-.container{
+.container {
     width: var(--container-width-lg);
     margin: 0 auto;
 }
 
-h1,h2,h3,h4,h5{
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-weight: 500;
 }
-h1{
+
+h1 {
     font-size: 2.8rem;
 }
-section{
+
+section {
     margin-top: 8rem;
 }
 
-section > h2, 
-section > h5{
+section>h2,
+section>h5 {
     text-align: center;
     color: var(--color-light);
 }
 
-section> h2{
+section>h2 {
     color: var(--color-primary);
     margin-bottom: 3.5rem;
 }
 
-.text-light{
+.text-light {
     color: var(--color-primary);
 }
 
-a{
+a {
     color: var(--color-primary);
     transition: var(--transition);
 }
 
-a:hover{
-    color: var(--color-light);
+a:hover {
+    color: var(--color-white);
 }
-.btn{
+
+.btn {
     background: var(--color-bg);
     width: max-content;
     display: inline-block;
@@ -99,57 +109,101 @@ a:hover{
     border: 1px solid var(--color-primary);
     transition: var(--transition);
 }
-.btn a{
+
+.btn a {
+
     color: var(--color-white);
     font-size: 1.2rem;
 }
-.btn:hover{
+
+.btn:hover {
     background: var(--color-bg-variant);
     color: var(--color-white);
     border-color: transparent;
 }
 
-.btn-primary{
-    padding: 0;
+.btn-primary {
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 500;
     background: var(--color-white);
     color: var(--color-black);
     border-color: var(--color-white);
 }
-.btn-primary a:hover{
+
+.btn-primary a:hover {
     color: var(--color-white);
     transition: var(0);
 }
-.btn-primary a{
+
+.btn-primary a {
     padding: 0.8rem 1rem;
     color: var(--color-bg);
     font-size: 1.1rem;
 
 }
 
-img{
+img {
     display: block;
     width: 100%;
     object-fit: cover;
 }
 
+.text-title {
+    font-size: 45px;
+}
+
+.text-subtitle {
+    font-size: 20px;
+}
+
+.spacer {
+    aspect-ratio: 960/400;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.layer1 {
+    background-image: url('./assets/layer1.svg');
+}
+
+.layer2 {
+    background-image: url('./assets/layer2.svg');
+}
+
+.layer3 {
+    background-image: url('./assets/layer3.svg');
+}
+
+
 /* )==============================MEDIA QUERIES (MEDIUM DEVICES)============================== */
-@media screen and (max-width: 1024px){
-    .container{
+@media screen and (max-width: 1024px) {
+    .container {
         width: var(--container-width-md);
     }
 
-    section{
+    section {
         margin-top: 6rem;
     }
 }
 
 /* )==============================MEDIA QUERIES (SMALL DEVICES)============================== */
-@media screen and (max-width: 600px){
-    .container{
+@media screen and (max-width: 600px) {
+    .container {
         width: var(--container-width-sm);
     }
 
-    section > h2{
+    section>h2 {
         margin-bottom: 2rem;
+    }
+
+    .text-title {
+        font-size: 35px;
+    }
+
+    .text-subtitle {
+        font-size: 15px;
     }
 }
