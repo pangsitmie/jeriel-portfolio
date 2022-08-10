@@ -13,9 +13,9 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        // service id, template id, public key
+        // service id, template id, public key, yang eth.link(template_ob64eth)
         "service_fa5x2ru",
-        "template_ob64twg",
+        "template_ob64eth",
         form.current,
         "3BeXX854tLBXWkTvC"
       )
