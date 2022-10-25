@@ -1,34 +1,38 @@
 import React from 'react'
 import './qualification.css'
-import { BiCheck } from 'react-icons/bi'
 import { GiGraduateCap } from 'react-icons/gi'
 import { BsFillBriefcaseFill } from 'react-icons/bs'
 import { BsFillCalendarRangeFill } from 'react-icons/bs'
 
-// const tabs = document.querySelectorAll('[data-target]'),
-//   tabContents = document.querySelectorAll('[data-content]')
 
-// tabs.forEachtab(tab => {
-//   tab.addEventListener('click', () => {
-//     const target = document.querySelector(tab.dataset.target)
-
-//     tabContents.forEach(tabContent => {
-//       tabContent.classList.remove('qualification__active')
-//     })
-//     target.classList.add('qualification__Active')
-
-//     tab.forEach(tab => {
-//       tab.classList.remove('qualification__active')
-//     })
-//     tab.classList.add('qualification__active')
-//   })
-// })
 
 
 const Qualification = () => {
+
+  const tabs = document.querySelectorAll('[data-target]'),
+    tabContents = document.querySelectorAll('[data-content]')
+
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      const target = document.querySelector(tab.dataset.target)
+
+      tabContents.forEach(tabContent => {
+        tabContent.classList.remove('qualification__active')
+        console.log(tabContent.classList)
+      })
+      target.classList.add('qualification__active')
+
+      tabs.forEach(tab => {
+        tab.classList.remove('qualification__active')
+        console.log("clicked")
+      })
+      tab.classList.add('qualification__active')
+    })
+  })
+
   return (
     <section className='qualification section' id='qualification' >
-      <h5 className='text-subtitle'>My Personal Journey</h5>
+      <h5 className='text-subtitle'>My Journey</h5>
       <h2 className='text-title'>Qualification</h2>
 
       <div className='qualification__container container'>
@@ -45,15 +49,18 @@ const Qualification = () => {
         </div>
 
         <div className="qualification__sections">
+
+          {/* =======================QUALIFICATION CONTENT 1 = EDUCATION =======================*/}
           <div className="qualification__content qualification__active" data-content id="education">
+
             {/* QUALIFICATION1 */}
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Computer ENgineer</h3>
-                <span className="qualification__subtitle">Peru - University</span>
+                <h3 className="qualification__title">SMA Gloria 1</h3>
+                <span className="qualification__subtitle">Indonesia - High School</span>
                 <div className='qualification__calendar'>
                   <BsFillCalendarRangeFill className='calendar__icon' />
-                  2014-2015
+                  2016-2019
                 </div>
               </div>
 
@@ -62,9 +69,10 @@ const Qualification = () => {
                 <span className='qualification__line'></span>
               </div>
             </div>
+
             {/* QUALIFICATION 2 */}
             <div className="qualification__data">
-              <div></div>
+              <div></div>   {/*nbuat spacing*/}
 
               <div>
                 <span className='qualification__rounder'></span>
@@ -72,27 +80,29 @@ const Qualification = () => {
               </div>
 
               <div>
-                <h3 className="qualification__title">Web Designer</h3>
-                <span className="qualification__subtitle">Spain - University</span>
+                <h3 className="qualification__title">National Yunlin University</h3>
+                <span className="qualification__subtitle">Taiwan - University</span>
                 <div className='qualification__calendar'>
                   <BsFillCalendarRangeFill className='calendar__icon' />
-                  2014-2015
+                  2019-Present
                 </div>
               </div>
+
             </div>
           </div>
 
-          {/* WORK SECTION */}
+
+          {/*================================ QUALIFICATION CONTENT 2 = WORK SECTION ========================*/}
           <div className="qualification__content" data-content id="work">
             {/* QUALIFICATION1 */}
             <div></div>
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Computer ENgineer</h3>
-                <span className="qualification__subtitle">Peru - University</span>
+                <h3 className="qualification__title">Front-End Software Engineer</h3>
+                <span className="qualification__subtitle">陸豪科技｜雲程在線</span>
                 <div className='qualification__calendar'>
                   <BsFillCalendarRangeFill className='calendar__icon' />
-                  2014-2015
+                  Sep 2022 - Present
                 </div>
               </div>
 
@@ -111,11 +121,11 @@ const Qualification = () => {
               </div>
 
               <div>
-                <h3 className="qualification__title">Web Designer</h3>
-                <span className="qualification__subtitle">Spain - University</span>
+                <h3 className="qualification__title">Android Developer</h3>
+                <span className="qualification__subtitle">Personal project, Freelance, and Startup Competition</span>
                 <div className='qualification__calendar'>
                   <BsFillCalendarRangeFill className='calendar__icon' />
-                  2014-2015
+                  2020-Present
                 </div>
               </div>
             </div>
@@ -123,11 +133,11 @@ const Qualification = () => {
             {/* QUALIFICATION 3 */}
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Designer</h3>
-                <span className="qualification__subtitle">Spain - University</span>
+                <h3 className="qualification__title">Wordpress Engineer</h3>
+                <span className="qualification__subtitle">Design, Implement, Mantaining other companies website</span>
                 <div className='qualification__calendar'>
                   <BsFillCalendarRangeFill className='calendar__icon' />
-                  2014-2015
+                  2020-Present
                 </div>
               </div>
               <div>
