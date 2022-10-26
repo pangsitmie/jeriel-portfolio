@@ -18,6 +18,10 @@ const Experience = () => {
           <ul className="service__list">
             <li>
               <BiCheck className='service__list-icon' />
+              <p>Create a demo application for Yunlin University Startup competition</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon' />
               <p>Design and implementing UI/UX for my own android app </p>
             </li>
             <li>
@@ -41,6 +45,11 @@ const Experience = () => {
           <ul className="service__list">
             <li>
               <BiCheck className='service__list-icon' />
+              <p>Redesign and implement cloudprogrammingonline.com using
+                figma for UI/UX, and react to create the actual website</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon' />
               <p>Designed, Create, and Manage Pahamfilm.com</p>
             </li>
             <li>
@@ -57,12 +66,16 @@ const Experience = () => {
 
         <article className="service">
           <div className="service__head">
-            <h3>Other Opportunities</h3>
+            <h3>Unity Developer</h3>
           </div>
           <ul className="service__list">
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Under Maintenance</p>
+              <p>Create a highly scalable marketing app to promote entertainment retail stores.</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p>Utilize REST API, GraphQL for connecting front-end and back-end.</p>
             </li>
 
           </ul>

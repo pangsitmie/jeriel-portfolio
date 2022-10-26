@@ -1,7 +1,7 @@
 import React from 'react'
 import './about.css'
 import ME from '../../assets/jeriel_profile.jpg'
-import { FaAward, FaSpinner } from 'react-icons/fa'
+import { FaAward } from 'react-icons/fa'
 import { FiUsers } from 'react-icons/fi'
 import { VscFolderLibrary } from 'react-icons/vsc'
 import { BiCheck } from 'react-icons/bi'

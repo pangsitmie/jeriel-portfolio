@@ -3,9 +3,9 @@ import "./portfolio.css";
 import { motion } from "framer-motion";
 import IMG1 from "../../assets/tucope.jpg";
 import IMG2 from "../../assets/portfolio2.jpg";
-import IMG3 from "../../assets/coin_toss_kmeans.jpg";
-import IMG4 from "../../assets/MRI_kmeans.jpg";
-import IMG5 from "../../assets/coming_soon.jpg";
+import IMG3 from "../../assets/yuncheng.png";
+import IMG4 from "../../assets/coin_toss_kmeans.jpg";
+import IMG5 from "../../assets/MRI_kmeans.jpg";
 import IMG6 from "../../assets/coming_soon.jpg";
 
 const data = [
@@ -26,30 +26,31 @@ const data = [
   {
     id: 3,
     image: IMG3,
+    title: "陸豪科技｜雲程在線 Website",
+    github:
+      "",
+    demo: "https://cloudprogrammingonline.com/",
+  },
+  {
+    id: 4,
+    image: IMG4,
     title: "Coin Toss Distribution Analysis",
     github:
       "https://github.com/pangsitmie/Pattern-Recognition/tree/main/PROJECTS",
     demo: "https://github.com/pangsitmie/Pattern-Recognition/tree/main/PROJECTS",
   },
   {
-    id: 4,
-    image: IMG4,
+    id: 5,
+    image: IMG5,
     title: "MRI K-Means Analysis",
     github:
       "https://github.com/pangsitmie/Pattern-Recognition/tree/main/PROJECTS/project_4",
     demo: "https://github.com/pangsitmie/Pattern-Recognition/tree/main/PROJECTS/project_4",
   },
   {
-    id: 5,
-    image: IMG5,
-    title: "Wait For The Next Update :)",
-    github: "https://github.com",
-    demo: "https://github.com",
-  },
-  {
     id: 6,
     image: IMG6,
-    title: "Wait For The Next Update :)",
+    title: "Marketing System App",
     github: "https://github.com",
     demo: "https://github.com",
   },

@@ -1,7 +1,6 @@
 import React from 'react'
 import './skill.css'
 import { BsPatchCheckFill } from 'react-icons/bs'
-import { motion } from "framer-motion";
 const Skill = () => {
   return (
     <section id='skill' className="skill-bg">

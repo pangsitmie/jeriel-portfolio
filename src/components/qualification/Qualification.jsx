@@ -55,12 +55,12 @@ const Qualification = () => {
 
             {/* QUALIFICATION1 */}
             <div className="qualification__data">
-              <div>
-                <h3 className="qualification__title">SMA Gloria 1</h3>
-                <span className="qualification__subtitle">Indonesia - High School</span>
+              <div className='container_left'>
+                <h3 className="qualification__title">National Yunlin University</h3>
+                <span className="qualification__subtitle">Taiwan - University</span>
                 <div className='qualification__calendar'>
                   <BsFillCalendarRangeFill className='calendar__icon' />
-                  2016-2019
+                  2019-Present
                 </div>
               </div>
 
@@ -76,18 +76,52 @@ const Qualification = () => {
 
               <div>
                 <span className='qualification__rounder'></span>
-                {/* <span className='qualification__line'></span> */}
+                <span className='qualification__line'></span>
               </div>
 
               <div>
-                <h3 className="qualification__title">National Yunlin University</h3>
+                <h3 className="qualification__title">Yunlin University Startup Team</h3>
                 <span className="qualification__subtitle">Taiwan - University</span>
                 <div className='qualification__calendar'>
                   <BsFillCalendarRangeFill className='calendar__icon' />
-                  2019-Present
+                  2022-2023
                 </div>
               </div>
+            </div>
 
+
+            {/* QUALIFICATION3 */}
+            <div className="qualification__data">
+              <div className='container_left'>
+                <h3 className="qualification__title">Business Model Canvas Finalist</h3>
+                <span className="qualification__subtitle">Indonesia - University</span>
+                <div className='qualification__calendar'>
+                  <BsFillCalendarRangeFill className='calendar__icon' />
+                  2020-Present
+                </div>
+              </div>
+              <div>
+                <span className='qualification__rounder'></span>
+                <span className='qualification__line'></span>
+              </div>
+            </div>
+
+            {/* QUALIFICATION 4 */}
+            <div className="qualification__data">
+              <div></div>   {/*nbuat spacing*/}
+
+              <div>
+                <span className='qualification__rounder'></span>
+              </div>
+
+              <div>
+                <h3 className="qualification__title">Teaching Assistant</h3>
+                <span className="qualification__subtitle">Taiwan - University</span>
+                <div className='qualification__calendar'>
+                  <BsFillCalendarRangeFill className='calendar__icon' />
+                  2020-2021
+                </div>
+              </div>
             </div>
           </div>
 
@@ -97,7 +131,7 @@ const Qualification = () => {
             {/* QUALIFICATION1 */}
             <div></div>
             <div className="qualification__data">
-              <div>
+              <div className='container_left'>
                 <h3 className="qualification__title">Front-End Software Engineer</h3>
                 <span className="qualification__subtitle">陸豪科技｜雲程在線</span>
                 <div className='qualification__calendar'>
@@ -132,7 +166,7 @@ const Qualification = () => {
 
             {/* QUALIFICATION 3 */}
             <div className="qualification__data">
-              <div>
+              <div className='container_left'>
                 <h3 className="qualification__title">Wordpress Engineer</h3>
                 <span className="qualification__subtitle">Design, Implement, Mantaining other companies website</span>
                 <div className='qualification__calendar'>

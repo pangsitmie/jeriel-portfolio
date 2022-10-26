@@ -6,7 +6,12 @@
 
     display: flex;
     justify-content: space-evenly;
+    margin: 0 12rem;
     margin-bottom: 2rem;
+}
+
+.qualification__sections {
+    margin-top: 5rem;
 }
 
 .qualification__button {
@@ -17,10 +22,11 @@
 
 .qualification__button:hover {
     color: var(--color-primary);
+    scale: 105%;
 }
 
 .qualification__icon {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     margin-right: 10px;
 }
 
@@ -30,27 +36,27 @@
     column-gap: 2rem;
 }
 
-.qualification__data__left {
-    background: rebeccapurple;
-    float: right;
+.container_left {
+    margin-left: auto;
+    margin-right: 0;
+    text-align: right;
 }
 
 .qualification__title {
-    background: red;
-    font-size: 1rem;
+    font-size: 1.3rem;
     font-weight: bold;
 }
 
 .qualification__subtitle {
     display: inline-block;
-    font-size: 1.2;
+    font-size: 1.15rem;
     color: var(--color-light);
     margin-bottom: 0.5rem;
     font-weight: 300;
 }
 
 .qualification__calendar {
-    font-size: 0.9rem;
+    font-size: 1rem;
     color: var(--color-light);
 }
 

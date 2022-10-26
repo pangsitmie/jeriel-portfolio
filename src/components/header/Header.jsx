@@ -6,15 +6,12 @@ import HeaderSocials from "./HeaderSocials";
 import { motion } from "framer-motion";
 import {
   batch,
-  Fade,
   FadeIn,
-  Move,
-  Sticky,
   StickyIn,
   ZoomIn,
 } from "react-scroll-motion";
 const ZoomInScrollOut = batch(StickyIn(), FadeIn(), ZoomIn());
-const FadeUp = batch(Fade(), Sticky(), Move());
+// const FadeUp = batch(Fade(), Sticky(), Move());
 
 const header = () => {
   return (

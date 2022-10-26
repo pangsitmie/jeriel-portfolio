@@ -7,16 +7,11 @@ import {
   batch,
   Fade,
   FadeIn,
-  FadeOut,
   Move,
-  MoveIn,
   MoveOut,
   Sticky,
   StickyIn,
-  StickyOut,
-  Zoom,
   ZoomIn,
-  ZoomOut,
 } from "react-scroll-motion";
 const ZoomInScrollOut = batch(StickyIn(), FadeIn(), ZoomIn());
 const FadeUp = batch(Fade(), Sticky(), Move());
