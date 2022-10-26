@@ -77,7 +77,6 @@ const Experience = () => {
               <BiCheck className='service__list-icon' />
               <p>Utilize REST API, GraphQL for connecting front-end and back-end.</p>
             </li>
-
           </ul>
         </article>
       </div>

@@ -42,15 +42,17 @@ const About = () => {
 
           <p className='description'>
             Hello! My name is Jeriel and
-            I love designing and creating things that .
-            My interest in App Development started back in 2020 when I decided to try creating app to help manage my crypto transactions —
+            I love to create and something that make people's life easier while still making the product as attractive as possible
+
+            My interest in Web & App Development started back in 2020 when I decided to try creating app to help manage my crypto transactions —
             turns out it was so much fun and this project taught me a lot about android app developemtn, app Architecture and many more.
             <br /><br />
-            Fast-forward to today, and I’ve had the privilege of working at an a <em>start-up, a huge corporation, and
-              joined a business with my friends.</em> My main focus these days is building accessible,
-            inclusive products and digital experiences for clients.
+            Fast-forward to today, and I’ve had the privilege of working at an a <em>start-up, intern at a well known company, and
+              joined a business with my friends.</em> My main focus these days is building beautiful, accessible, and highly scalebale
+            products and digital experiences for clients.
             <br /><br />
-            I also recently launched an android app that I created to organize crypto transactions in a more user-friendly way.
+            I launched an android app that I created to organize crypto transactions in a more user-friendly way called Tucope,
+            and I also completely redesigned my company's website from scratch to boost their brand image and engagement.
             <br /><br />
             Here are a few technologies I’ve been working with recently:
           </p>
@@ -78,7 +80,7 @@ const About = () => {
             </li>
             <li>
               <BiCheck className='tech__list-icon' />
-              <p>WordPress</p>
+              <p>Unity</p>
             </li>
           </ul>
 
