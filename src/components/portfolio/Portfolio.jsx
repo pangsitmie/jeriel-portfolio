@@ -27,8 +27,7 @@ const data = [
     id: 3,
     image: IMG3,
     title: "陸豪科技｜雲程在線 Website",
-    github:
-      "",
+    github: "https://www.figma.com/file/x3fxGmem6Ucd1QHZGY6Pv6/cloudprogrammingonline.com?node-id=0%3A1",
     demo: "https://cloudprogrammingonline.com/",
   },
   {
@@ -51,8 +50,8 @@ const data = [
     id: 6,
     image: IMG6,
     title: "Marketing System App",
-    github: "https://github.com",
-    demo: "https://github.com",
+    github: "#",
+    demo: "#",
   },
 ];
 

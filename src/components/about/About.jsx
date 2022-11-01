@@ -41,18 +41,17 @@ const About = () => {
           </div>
 
           <p className='description'>
-            Hello! My name is Jeriel and
-            I love to create and something that make people's life easier while still making the product as attractive as possible
-
-            My interest in Web & App Development started back in 2020 when I decided to try creating app to help manage my crypto transactions —
-            turns out it was so much fun and this project taught me a lot about android app developemtn, app Architecture and many more.
+            Hello! My name is Jeriel, I'm a Software Engineer and Front-end Engineer.
             <br /><br />
-            Fast-forward to today, and I’ve had the privilege of working at an a <em>start-up, intern at a well known company, and
-              joined a business with my friends.</em> My main focus these days is building beautiful, accessible, and highly scalebale
-            products and digital experiences for clients.
+            Doing coding everyday can be very boring for me, that's why I always use it to make something looks interesting!
+            Like this website for example, designing, creativity, and being able to implement it perfectly is my specialty.
             <br /><br />
-            I launched an android app that I created to organize crypto transactions in a more user-friendly way called Tucope,
-            and I also completely redesigned my company's website from scratch to boost their brand image and engagement.
+            Fast-forward to today, and I've had the privilege of working at an a start-up, intern at a well known company, and
+            joined a business with my friends. <em>My main focus these days is building beautiful, accessible, and highly scalebale
+              products and digital experiences for clients.</em>
+            <br /><br />
+            I also launched an android app that I created to organize crypto transactions in a more user-friendly way called Tucope,
+            and redesigned my company's website from scratch to boost their brand image and engagement (currently in development).
             <br /><br />
             Here are a few technologies I’ve been working with recently:
           </p>
