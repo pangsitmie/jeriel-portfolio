@@ -15,9 +15,13 @@
 }
 
 .qualification__button {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-weight: 500;
     cursor: pointer;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .qualification__button:hover {
@@ -26,7 +30,7 @@
 }
 
 .qualification__icon {
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     margin-right: 10px;
 }
 
@@ -83,10 +87,14 @@
     transform: translate(7px, -15px);
 }
 
-.qualification [data-content] {
+.qualification_hidden {
     display: none !important;
 }
 
-.qualification__active[data-content] {
+.qualification_active {
     display: block !important;
+}
+
+.qualification_icon_active {
+    color: var(--color-primary);
 }
