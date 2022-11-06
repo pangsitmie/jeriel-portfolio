@@ -11,6 +11,7 @@ import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 
 
+
 const App = () => {
   return (
     <>
@@ -18,7 +19,7 @@ const App = () => {
       <Header />
       <Nav />
       <About />
-      <div className="spacer layer1"></div>
+
       <Skill />
       <div className="spacer layer2"></div>
       <Qualification />

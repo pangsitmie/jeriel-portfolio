@@ -158,19 +158,16 @@ img {
 }
 
 .spacer {
-    aspect-ratio: 960/400;
+    aspect-ratio: 960/500;
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
-.layer1 {
-    background-image: url('./assets/layer1.svg');
-}
-
 .layer2 {
     background-image: url('./assets/layer2.svg');
+    z-index: 1000000;
 }
 
 .layer3 {

@@ -19,7 +19,7 @@ const header = () => {
       <div className="container header__container">
 
         <h1>Jeriel Isaiah</h1>
-        <h5 className="text-light">Software Engineer & Android Engineer</h5>
+        <h5 className="text-light">Software Engineer & Designer</h5>
         <CTA />
         <HeaderSocials />
 

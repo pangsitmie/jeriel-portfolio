@@ -7,13 +7,11 @@ import { VscFolderLibrary } from 'react-icons/vsc'
 import { BiCheck } from 'react-icons/bi'
 
 
-
 const About = () => {
   return (
     <section id='about'>
       <h5 className='text-subtitle'>Get To Know</h5>
       <h2 className='text-title'>About Me</h2>
-
       <div className="container about__container">
         <div className="about__me">
           <div className='about__me-image'>

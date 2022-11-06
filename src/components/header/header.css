@@ -4,37 +4,8 @@ header {
     overflow: hidden;
 }
 
-.wave {
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-}
 
-.wave svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 192px;
-}
 
-.wave .shape-fill {
-    fill: #FFFFFF;
-}
-
-.spacer {
-    aspect-ratio: 960/300;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.layer1 {
-    background-image: url('../../assets/layer1.svg');
-}
 
 .header__container {
     text-align: center;
@@ -83,11 +54,11 @@ header {
 }
 
 .me__content {
-    width: 45rem;
+    width: 43rem;
     height: auto;
     position: absolute;
-    top: -40%;
-    left: -57%;
+    top: -15%;
+    left: -52%;
 }
 
 /* ======================= SCROLL DOWN ===================== */
