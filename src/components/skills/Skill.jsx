@@ -1,9 +1,13 @@
 import React from 'react'
 import './skill.css'
 import { BsPatchCheckFill } from 'react-icons/bs'
+import { useInView } from 'react-intersection-observer';
+
+
 const Skill = () => {
+  const { ref, inView } = useInView({ trackVisibility: true, delay: 100, triggerOnce: true });
   return (
-    <section id='skill' className="skill-bg">
+    <section id='skill' className={`skill_content hidden ${inView ? 'show' : ' '}`} ref={ref}>
       <h5 className='text-subtitle'>My Field of</h5>
       <h2 className='text-title'>Expertise</h2>
 
@@ -14,15 +18,15 @@ const Skill = () => {
             <article className="skill__details">
               <BsPatchCheckFill className='skill__details-icon' />
               <div>
-                <h4>HTML</h4>
+                <h4>HTML & CSS</h4>
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
             <article className="skill__details">
               <BsPatchCheckFill className='skill__details-icon' />
               <div>
-                <h4>CSS</h4>
-                <small className='text-light'>Experienced</small>
+                <h4>GraphQL</h4>
+                <small className='text-light'>Intermediate</small>
               </div>
             </article>
             <article className="skill__details">
@@ -42,33 +46,6 @@ const Skill = () => {
           </div>
         </div>
         {/* END OF FRONTEND */}
-        <div className="skill__backend">
-          <h3>Backend Development</h3>
-          <div className="skill__content">
-            <article className="skill__details">
-              <BsPatchCheckFill className='skill__details-icon' />
-              <div>
-                <h4>MySQL</h4>
-                <small className='text-light'>Intermediate</small>
-              </div>
-            </article>
-            <article className="skill__details">
-              <BsPatchCheckFill className='skill__details-icon' />
-              <div>
-                <h4>PHP</h4>
-                <small className='text-light'>Intermediate</small>
-              </div>
-            </article>
-            <article className="skill__details">
-              <BsPatchCheckFill className='skill__details-icon' />
-              <div>
-                <h4>Firebase</h4>
-                <small className='text-light'>Experienced</small>
-              </div>
-            </article>
-          </div>
-        </div>
-        {/* END OF BACKEND */}
         <div className="skill__android">
           <h3>Android Development</h3>
           <div className="skill__content">
@@ -96,13 +73,41 @@ const Skill = () => {
             <article className="skill__details">
               <BsPatchCheckFill className='skill__details-icon' />
               <div>
-                <h4>Utilizing API</h4>
-                <small className='text-light'>Experienced</small>
+                <h4>MVVM Architecture</h4>
+                <small className='text-light'>Intermediate</small>
               </div>
             </article>
           </div>
         </div>
         {/* END OF ANDROID */}
+        <div className="skill__backend">
+          <h3>Backend Development</h3>
+          <div className="skill__content">
+            <article className="skill__details">
+              <BsPatchCheckFill className='skill__details-icon' />
+              <div>
+                <h4>MySQL</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
+            </article>
+            <article className="skill__details">
+              <BsPatchCheckFill className='skill__details-icon' />
+              <div>
+                <h4>PHP</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
+            </article>
+            <article className="skill__details">
+              <BsPatchCheckFill className='skill__details-icon' />
+              <div>
+                <h4>Firebase</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
+            </article>
+          </div>
+        </div>
+        {/* END OF BACKEND */}
+
         <div className="skill__python">
           <h3>Data Science</h3>
           <div className="skill__content">

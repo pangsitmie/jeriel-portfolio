@@ -4,6 +4,7 @@ import CTA from "./CTA";
 import ME from "../../assets/jeriel_about.png";
 import HeaderSocials from "./HeaderSocials";
 import { motion } from "framer-motion";
+import { useInView } from 'react-intersection-observer';
 import {
   batch,
   FadeIn,
@@ -13,10 +14,11 @@ import {
 const ZoomInScrollOut = batch(StickyIn(), FadeIn(), ZoomIn());
 // const FadeUp = batch(Fade(), Sticky(), Move());
 
-const header = () => {
+const Header = () => {
+  const { ref, inView } = useInView({ trackVisibility: true, delay: 100 });
   return (
     <header>
-      <div className="container header__container">
+      <div className={`container header__container hidden ${inView ? 'show' : ' '}`} ref={ref}>
 
         <h1>Jeriel Isaiah</h1>
         <h5 className="text-light">Software Engineer & Designer</h5>
@@ -35,7 +37,7 @@ const header = () => {
 
 
     </header>
-  );
-};
+  )
+}
 
-export default header;
+export default Header

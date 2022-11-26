@@ -3,10 +3,13 @@ import './qualification.css'
 import { GiGraduateCap } from 'react-icons/gi'
 import { BsFillBriefcaseFill } from 'react-icons/bs'
 import { BsFillCalendarRangeFill } from 'react-icons/bs'
+import { useInView } from 'react-intersection-observer'
 
 
 
 const Qualification = () => {
+  const { ref, inView } = useInView({ trackVisibility: true, delay: 100, triggerOnce: true });
+
   const [isActive, setActive] = useState(false);
   //true toggles Education, flase toggles work
   const toggleEducation = () => {
@@ -18,7 +21,7 @@ const Qualification = () => {
 
 
   return (
-    <section className='qualification section' id='qualification' >
+    <section id='qualification' className={`qualification section hidden ${inView ? 'show' : ' '}`} ref={ref} >
       <h5 className='text-subtitle'>My Journey</h5>
       <h2 className='text-title'>Qualification</h2>
 

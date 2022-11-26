@@ -5,11 +5,12 @@ import { FaAward } from 'react-icons/fa'
 import { FiUsers } from 'react-icons/fi'
 import { VscFolderLibrary } from 'react-icons/vsc'
 import { BiCheck } from 'react-icons/bi'
-
+import { useInView } from 'react-intersection-observer';
 
 const About = () => {
+  const { ref, inView } = useInView({ trackVisibility: true, delay: 100, triggerOnce: true });
   return (
-    <section id='about'>
+    <section id='about ' className={`hidden ${inView ? 'show' : ' '}`} ref={ref}>
       <h5 className='text-subtitle'>Get To Know</h5>
       <h2 className='text-title'>About Me</h2>
       <div className="container about__container">
@@ -44,8 +45,8 @@ const About = () => {
             Doing coding everyday can be very boring for me, that's why I always use it to make something looks interesting!
             Like this website for example, designing, creativity, and being able to implement it perfectly is my specialty.
             <br /><br />
-            Fast-forward to today, and I've had the privilege of working at an a start-up, intern at a well known company, and
-            joined a business with my friends. <em>My main focus these days is building beautiful, accessible, and highly scalebale
+            Fast-forward to today, and I've had the privilege to do an internship at a well known company and freelancing,
+            in this front-end dev field. <em>My main focus these days is building beautiful, accessible, and highly scalebale
               products and digital experiences for clients.</em>
             <br /><br />
             I also launched an android app that I created to organize crypto transactions in a more user-friendly way called Tucope,
@@ -73,7 +74,7 @@ const About = () => {
             </li>
             <li>
               <BiCheck className='tech__list-icon' />
-              <p>MySQL</p>
+              <p>MySQL & GQL</p>
             </li>
             <li>
               <BiCheck className='tech__list-icon' />
