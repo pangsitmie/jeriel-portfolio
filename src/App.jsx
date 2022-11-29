@@ -1,34 +1,26 @@
 import React from "react";
-import Header0 from "./components/header0/Header0";
-import Header from "./components/header/Header";
-import Nav from "./components/nav/Nav";
-import About from "./components/about/About";
-import Skill from "./components/skills/Skill";
-import Qualification from "./components/qualification/Qualification";
-import Experience from "./components/experience/Experience";
-import Portfolio from "./components/portfolio/Portfolio";
-import Contact from "./components/contact/Contact";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/home/Home";
+import Winpro from "./pages/winpro/Winpro";
 import Footer from "./components/footer/Footer";
-
-
 
 const App = () => {
   return (
     <>
-      <Header0 />
-      <Header />
-      <Nav />
-      <About />
+      <Router basename="/">
 
-      <Skill />
-      <div className="spacer layer2"></div>
-      <Qualification />
-      <Experience />
-      <Portfolio />
-      <Contact />
-      <div className="spacer layer3"></div>
-      <Footer />
+        <Routes>
+          <Route exact path='/' element={<Home />} />
+          <Route path='/winpro' element={<Winpro />} />
 
+
+          <Route path='/404' element={<Home />} />
+          <Route path='*' element={<Home />} />
+
+        </Routes>
+        <Footer />
+
+      </Router>
     </>
   );
 };

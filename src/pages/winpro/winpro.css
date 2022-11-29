@@ -1,0 +1,27 @@
+.winpro_container {
+    background: black;
+    padding: 15rem 10rem;
+}
+
+.winpro_hero h1 {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.winpro_hero p {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.winpro_content1 {
+    margin: 20rem 0;
+}
+
+.winpro_content1 h3 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.winpro_content1 p {
+    font-size: 1.2rem;
+}

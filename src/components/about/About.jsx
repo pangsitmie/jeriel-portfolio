@@ -10,7 +10,7 @@ import { useInView } from 'react-intersection-observer';
 const About = () => {
   const { ref, inView } = useInView({ trackVisibility: true, delay: 100, triggerOnce: true });
   return (
-    <section id='about ' className={`hidden ${inView ? 'show' : ' '}`} ref={ref}>
+    <section id='about' className={`hidden ${inView ? 'show' : ' '}`} ref={ref}>
       <h5 className='text-subtitle'>Get To Know</h5>
       <h2 className='text-title'>About Me</h2>
       <div className="container about__container">

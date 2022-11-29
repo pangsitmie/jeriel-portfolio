@@ -18,6 +18,7 @@ const Header = () => {
   const { ref, inView } = useInView({ trackVisibility: true, delay: 100 });
   return (
     <header>
+
       <div className={`container header__container hidden ${inView ? 'show' : ' '}`} ref={ref}>
 
         <h1>Jeriel Isaiah</h1>

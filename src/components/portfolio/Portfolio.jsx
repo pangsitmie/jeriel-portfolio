@@ -1,6 +1,7 @@
 import React from "react";
 import "./portfolio.css";
 import { motion } from "framer-motion";
+import MOONZ_PDF from "../../assets/MOONZ_PDF.pdf";
 import IMG1 from "../../assets/yuncheng.png";
 import IMG2 from "../../assets/tucope.jpg";
 import IMG3 from "../../assets/moonz_thumbnail.png";
@@ -31,7 +32,7 @@ const data = [
     image: IMG3,
     title: "Moonz - MVVM Android App",
     github: "https://github.com/pangsitmie/Ustart",
-    demo: "https://github.com/pangsitmie/Ustart",
+    demo: MOONZ_PDF,
     figma: ""
   },
   {
@@ -85,7 +86,7 @@ const Portfolio = () => {
                   className="btn"
                 >
                   {(() => {
-                    if (figma == "") {
+                    if (figma === "") {
                       return (
                         <a href={github} target="_blank" rel="noreferrer">Github</a>
                       )
@@ -104,7 +105,7 @@ const Portfolio = () => {
                   whileTap={{ scale: 0.9 }}
                   className="btn btn-primary"
                 >
-                  <a href={demo} target="_blank" rel="noreferrer">
+                  <a href={demo} >
                     See More
                   </a>
                 </motion.button>
