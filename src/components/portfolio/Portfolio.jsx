@@ -16,7 +16,7 @@ const data = [
     image: IMG1,
     title: "陸豪科技｜雲程在線 Website",
     github: "",
-    demo: "https://cloudprogrammingonline.com/",
+    demo: "/winpro",
     figma: "https://www.figma.com/file/x3fxGmem6Ucd1QHZGY6Pv6/cloudprogrammingonline.com?node-id=0%3A1"
   },
   {
@@ -31,8 +31,8 @@ const data = [
     id: 3,
     image: IMG3,
     title: "Moonz - MVVM Android App",
-    github: "https://github.com/pangsitmie/Ustart",
-    demo: MOONZ_PDF,
+    github: "https://github.com/pangsitmie/",
+    demo: "/moonz",
     figma: ""
   },
   {

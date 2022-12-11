@@ -1,0 +1,62 @@
+.moonz_container {
+    padding: 5rem 0;
+}
+
+.moonz_img_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.moonz_img_container img {
+    width: 128px;
+    height: 128px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.moonz_container h1 {
+    font-size: 6rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    text-align: center;
+    padding: 0;
+}
+
+.moonz_container h2 {
+    font-size: 1.4rem;
+    padding: 0 15rem;
+    color: #cecece;
+    text-align: center;
+}
+
+/* intro */
+.moonz_intro {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    gap: 10%;
+    padding: 5rem 0;
+}
+
+.moonz_about h3 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.moonz_about h4 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.moonz_about p {
+    font-size: 1.3rem;
+}
+
+.moonz_app {
+    padding: 0 8rem;
+}
+
+.moonz_app img {
+    width: 100%;
+    height: auto;
+}

@@ -166,6 +166,10 @@ img {
     background-size: cover;
 }
 
+.container_black {
+    background: var(--color-black)
+}
+
 .layer2 {
     background-image: url('./assets/layer2.svg');
     z-index: 1000000;

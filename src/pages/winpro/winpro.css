@@ -14,14 +14,90 @@
 }
 
 .winpro_content1 {
-    margin: 20rem 0;
+    margin: 15rem 0;
 }
 
 .winpro_content1 h3 {
     font-size: 2.5rem;
     font-weight: bold;
+    margin-bottom: 1rem;
 }
 
 .winpro_content1 p {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+    line-height: 200%;
+}
+
+.winpro_col_50_50 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5rem;
+}
+
+.winpro_tools {
+    margin-top: 5rem;
+    width: 100%;
+    height: fit-content;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    background: linear-gradient(45deg, transparent, #171E2D, transparent);
+    display: grid;
+    place-items: center;
+}
+
+.winpro_tools-image {
+    border-radius: 2rem;
+    width: 80%;
+    overflow: hidden;
+    transition: var(--transition);
+}
+
+.winpro_tools-image:hover {
+    transform: scale(1.1);
+    transition: var(--transition);
+}
+
+/* before after */
+.winpro_highlights {
+    background: black;
+}
+
+.winpro_highlights h3 {
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.App {
+    padding: 2rem 15rem;
+}
+
+.frame_div {
+    padding: 2rem;
+}
+
+.iframe {
+    width: 100%;
+    height: 100vh;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.winpro_after_btn {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.winpro_ending {
+    background: black;
+    padding: 15rem 10rem;
+}
+
+.winpro_ending h1,
+.winpro_ending p {
+    text-align: center;
+    font-weight: bold;
 }
