@@ -60,3 +60,78 @@
     width: 100%;
     height: auto;
 }
+
+/* indicators */
+.moonz_indicators {
+    padding: 5rem 0;
+}
+
+.moonz_indicators h4 {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 2rem 0;
+}
+
+.moonz_card {
+    background: var(--color-black) !important;
+}
+
+.moonz_icon {
+    color: var(--color-white) !important;
+}
+
+.moonz_card h5 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--color-white) !important;
+}
+
+.moonz_card small {
+    font-size: 1rem;
+    color: var(--color-white) !important;
+}
+
+.moonz_app_container {
+    padding: 5rem 0;
+}
+
+.moonz_app_container h3 {
+    font-size: 4rem;
+    font-weight: bold;
+    padding: 2rem 0;
+}
+
+.moonz_app_container p {
+    font-size: 1.3rem;
+    padding: 2rem 0;
+}
+
+/* moonz presentation */
+
+/* moonz more info */
+.moonz_more_info {
+    padding: 5rem 0;
+}
+
+.moonz_more_info h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.moonz_more_info_btncontainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn_a_playstore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn_a_playstore li {
+    margin: .2rem .8rem 0 0;
+}

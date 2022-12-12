@@ -12,7 +12,7 @@ const Winpro = () => {
     return (
 
         <div>
-            <Nav2 />
+            <Nav2 nextLink="/moonz" prevLink="/moonz" />
             <div className='winpro_container'>
                 <div className='winpro_hero'>
                     <a href="https://cloudprogrammingonline.com/"><h2>cloudprogrammingonline.com</h2></a>
@@ -53,7 +53,7 @@ const Winpro = () => {
             <div className="winpro_highlights">
                 <h3>Before</h3>
                 <div className="App">
-                    <YoutubeEmbed embedId="wV-AOqiAuuU" />
+                    <YoutubeEmbed embedId="B_gWmjS-z94" />
                 </div>
                 <br /><br />
                 <h3>After</h3>

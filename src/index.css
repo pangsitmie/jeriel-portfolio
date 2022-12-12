@@ -104,14 +104,13 @@ a:hover {
     display: inline-block;
     color: var(--color-white);
     padding: 0.75rem 1.2rem;
-    border-radius: 0.4rem;
+    border-radius: 1rem;
     cursor: pointer;
     border: 1px solid var(--color-primary);
     transition: var(--transition);
 }
 
 .btn a {
-
     color: var(--color-white);
     font-size: 1.2rem;
 }
@@ -167,7 +166,7 @@ img {
 }
 
 .container_black {
-    background: var(--color-black)
+    background: var(--color-dark)
 }
 
 .layer2 {
@@ -191,6 +190,91 @@ img {
     filter: blur(0);
     transform: translateY(0);
 }
+
+/* BTN */
+/* BUTTON GLOW EFFECT */
+.glow-on-hover a {
+    color: var(--color-bg);
+}
+
+.glow-on-hover {
+    border-radius: 15rem;
+    padding: 0rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-bg);
+    z-index: 10000;
+    width: 220px;
+    height: 60px;
+    border: 1px solid #dbd0eb;
+    outline: none;
+    color: #111;
+    background: var(--color-bg);
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-color: var(--color-white);
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #722081, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #722081);
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 15rem;
+}
+
+.glow-on-hover:active {
+    /* color: #000 */
+    color: #fff
+}
+
+.glow-on-hover:active:after {
+    /* background: var(--color-bg); */
+    background: var(--color-white);
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: var(--color-white);
+    /* background: var(--color-bg); */
+    border-color: var(--color-bg);
+    left: 0;
+    top: 0;
+    border-radius: 15rem;
+}
+
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 400% 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
+
 
 /* )==============================MEDIA QUERIES (MEDIUM DEVICES)============================== */
 @media screen and (max-width: 1024px) {
