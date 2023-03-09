@@ -17,7 +17,7 @@ const data = [
   {
     id: 2,
     image: IMG2,
-    title: "雲程在線 Website",
+    title: "雲程在線",
     redirect: "/yuncheng"
   },
   {
