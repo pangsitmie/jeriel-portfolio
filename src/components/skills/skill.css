@@ -10,7 +10,7 @@
 
 .skill__container>div {
     background: var(--color-bg-variant);
-    padding: 2.4rem 5rem;
+    padding: 2.4rem 3.8rem;
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
@@ -26,13 +26,20 @@
 .skill__container>div h3 {
     text-align: center;
     margin-bottom: 2rem;
-    color: var(--color-primary);
+    color: var(--color-white);
 }
 
 .skill__content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    row-gap: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skill_column {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: space-between;
 }
 
 .skill__details {
@@ -55,7 +62,7 @@
     }
 
     .skill__container>div {
-        width: 80%;
+        width: 100%;
         padding: 2rem;
         margin: 0 auto;
     }
@@ -77,7 +84,7 @@
     }
 
     .skill__content {
-        padding: 2rem 1rem;
+        padding: 1rem 0;
     }
 
 

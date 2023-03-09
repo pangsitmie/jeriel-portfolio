@@ -10,7 +10,7 @@ const CTA = () => {
         whileTap={{ scale: 0.9 }}
         className="btn"
       >
-        <a href={CV}>Download Resume</a>
+        <a href={CV}>Resume</a>
       </motion.button>
 
       <motion.button

@@ -11,7 +11,6 @@ const About = () => {
   const { ref, inView } = useInView({ trackVisibility: true, delay: 100, triggerOnce: true });
   return (
     <section id='about' className={`hidden ${inView ? 'show' : ' '}`} ref={ref}>
-      <h5 className='text-subtitle'>Get To Know</h5>
       <h2 className='text-title'>About Me</h2>
       <div className="container about__container">
         <div className="about__me">
@@ -40,19 +39,14 @@ const About = () => {
           </div>
 
           <p className='description'>
-            Hello! My name is Jeriel, I'm a Software Engineer and Front-end Engineer.
+            As a skilled front-end developer with a passion for creativity and
+            design, I specialize in developing visually appealing and highly scalable digital products and experiences. My experience includes an internship at a well-known company and freelancing in the field, where I have gained expertise in building beautiful and accessible products for clients.
             <br /><br />
-            Doing coding everyday can be very boring for me, that's why I always use it to make something looks interesting!
-            Like this website for example, designing, creativity, and being able to implement it perfectly is my specialty.
+            With a commitment to delivering high-quality work and a strong focus on innovation, I am dedicated to exceeding my clients' expectations and ensuring that their digital presence is both engaging and user-friendly.
             <br /><br />
-            Fast-forward to today, and I've had the privilege to do an internship at a well known company and freelancing,
-            in this front-end dev field. <em>My main focus these days is building beautiful, accessible, and highly scalebale
-              products and digital experiences for clients.</em>
+            Whether you need a stunning website, a powerful mobile app, or a range of other digital solutions, I have the skills and expertise to deliver results that truly make a difference.
             <br /><br />
-            I also launched an android app that I created to organize crypto transactions in a more user-friendly way called Tucope,
-            and redesigned my company's website from scratch to boost their brand image and engagement (currently in development).
-            <br /><br />
-            Here are a few technologies I’ve been working with recently:
+            Technologies I've been working with recently:
           </p>
 
           <ul className="tech__list">

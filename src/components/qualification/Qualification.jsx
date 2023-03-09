@@ -124,8 +124,8 @@ const Qualification = () => {
             <div></div>
             <div className="qualification__data">
               <div className='container_left'>
-                <h3 className="qualification__title">Front-End Software Engineer</h3>
-                <span className="qualification__subtitle">陸豪科技｜雲程在線</span>
+                <h3 className="qualification__title">Front-End Engineer</h3>
+                <span className="qualification__subtitle">陸豪科技</span>
                 <div className='qualification__calendar'>
                   <BsFillCalendarRangeFill className='calendar__icon' />
                   Sep 2022 - Present
@@ -148,7 +148,7 @@ const Qualification = () => {
 
               <div>
                 <h3 className="qualification__title">Android Developer</h3>
-                <span className="qualification__subtitle">Personal project, Freelance, and Startup Competition</span>
+                <span className="qualification__subtitle">Personal project</span>
                 <div className='qualification__calendar'>
                   <BsFillCalendarRangeFill className='calendar__icon' />
                   2020-Present

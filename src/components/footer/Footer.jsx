@@ -12,10 +12,7 @@ const Footer = () => {
 
       <ul className='permalinks'>
         <motion.li whileHover={{ scale: 1.1 }}><a href="/#">Home</a></motion.li>
-        <motion.li whileHover={{ scale: 1.1 }}><a whileHover={{ scale: 1.1 }} href="#about">About</a></motion.li>
-        <motion.li whileHover={{ scale: 1.1 }}><a whileHover={{ scale: 1.1 }} href="#experience">Experiencve</a></motion.li>
-        <motion.li whileHover={{ scale: 1.1 }}><a whileHover={{ scale: 1.1 }} href="#services">Service</a></motion.li>
-        <motion.li whileHover={{ scale: 1.1 }}><a whileHover={{ scale: 1.1 }} href="#portfolio">Portfolio</a></motion.li>
+        <motion.li whileHover={{ scale: 1.1 }}><a whileHover={{ scale: 1.1 }} href="#experience">Work</a></motion.li>
         <motion.li whileHover={{ scale: 1.1 }}><a whileHover={{ scale: 1.1 }} href="#contact">Contact</a></motion.li>
       </ul>
 

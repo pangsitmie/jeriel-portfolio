@@ -22,13 +22,11 @@ const Header = () => {
       <div className={`container header__container hidden ${inView ? 'show' : ' '}`} ref={ref}>
 
         <h1>Jeriel Isaiah</h1>
-        <h5 className="text-light">Software Engineer & Designer</h5>
+        <h4 className="text-light">Web developer & designer</h4>
         <CTA />
         <HeaderSocials />
 
-        <motion.div className="me" animation={ZoomInScrollOut}>
-          <img src={ME} className="me__content" alt="me" />
-        </motion.div>
+
 
         <a href="#contact" className="scroll__down">
           Scroll Down

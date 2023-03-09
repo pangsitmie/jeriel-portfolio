@@ -37,14 +37,14 @@
 .about__card {
     background: var(--color-bg-variant);
     border: 1px solid transparent;
-    border-radius: 1rem;
+    border-radius: 25px;
     padding: 2rem;
     text-align: center;
 }
 
 .about__card:hover {
     background-color: transparent;
-    border-color: var(--color-primary-variant);
+    border-color: var(--color-primary);
     cursor: default;
 }
 

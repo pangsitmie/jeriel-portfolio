@@ -16,14 +16,15 @@ const Home = () => {
             <Header0 />
             <Header />
             <Nav />
+            <Portfolio />
+
             <About />
             <Skill />
-            <div className="spacer layer2"></div>
+            {/* <div className="spacer layer2"></div> */}
             <Qualification />
             <Experience />
-            <Portfolio />
             <Contact />
-            <div className="spacer layer3"></div>
+            {/* <div className="spacer layer3"></div> */}
         </>
     )
 }

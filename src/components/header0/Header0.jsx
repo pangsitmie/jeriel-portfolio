@@ -27,13 +27,7 @@ const header0 = () => {
 
       <ScrollPage page={1}>
         <Animator animation={ZoomInScrollOut}>
-          <h2 className="scroll-text">I'm Jeriel</h2>
-        </Animator>
-      </ScrollPage>
-
-      <ScrollPage page={2}>
-        <Animator animation={FadeUp}>
-          <h3 className="scroll-text">Nice to meet you!</h3>
+          <h2 className="scroll-text">Welcome ✋</h2>
         </Animator>
       </ScrollPage>
     </ScrollContainer>
