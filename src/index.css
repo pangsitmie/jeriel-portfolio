@@ -45,7 +45,6 @@ body {
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    /* background-image: url(../src/assets/bg-texture.png); */
 }
 
 /* General Syyles */
@@ -95,6 +94,10 @@ section>h2 {
 
 .text-light {
     color: var(--color-primary);
+}
+
+.black {
+    color: var(--color-black);
 }
 
 a {
@@ -197,6 +200,25 @@ img {
     transform: translateY(0);
 }
 
+.problem_card {
+    height: 200px;
+    padding: 1.5rem;
+    border-radius: 25px;
+    background-color: #2D2D2D;
+}
+
+.solution_card {
+    height: 200px;
+    padding: 1.5rem;
+    border-radius: 25px;
+    background-color: #0063E3;
+}
+
+.problem_card h3,
+.solution_card h3 {
+    margin-bottom: 2rem;
+}
+
 /* BTN */
 /* BUTTON GLOW EFFECT */
 .glow-on-hover a {
@@ -266,6 +288,9 @@ img {
     top: 0;
     border-radius: 15rem;
 }
+
+
+
 
 @keyframes glowing {
     0% {

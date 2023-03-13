@@ -1,0 +1,70 @@
+.imageBox_item {
+    background-color: var(--color-bg-variant);
+    border-radius: 25px;
+    border: 1px solid transparent;
+    transition: var(--transition);
+    position: relative;
+    cursor: pointer;
+}
+
+
+.imageBox_item:hover {
+    box-shadow: 0 0 10px #cecece;
+}
+
+.imageBox_item:hover::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+}
+
+.imageBox_item:hover h3 {
+    visibility: visible;
+    opacity: 1;
+}
+
+.imageBox_item h3 {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s ease-in-out;
+}
+
+
+
+.imageBox_item .imageBox_item-image {
+    position: relative;
+}
+
+.imageBox_item .imageBox_item-image::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-bg-variant);
+    visibility: hidden;
+    border-radius: 25px;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s ease-in-out;
+}
+
+.imageBox_item:hover .imageBox_item-image::before {
+    visibility: visible;
+    opacity: 1;
+}
+
+.imageBox_item-image img {
+    border-radius: 25px;
+}

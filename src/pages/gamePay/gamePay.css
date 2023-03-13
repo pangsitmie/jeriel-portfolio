@@ -1,0 +1,94 @@
+.gamepay_hero {
+    height: 100vh;
+    width: 100%;
+    padding: 5rem;
+    background-color: #fff;
+    color: #111;
+}
+
+.gamepay_hero h4 {
+    text-align: right;
+}
+
+
+
+.curve_container {
+    padding: 5rem 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.curved-overlay-top {
+    position: absolute;
+    background-color: #FFF;
+    border-radius: 0 0 50% 50%;
+    bottom: 95%;
+    left: -50%;
+    width: 200%;
+    height: 500px;
+}
+
+.curved {
+    padding: 8rem 0;
+    background-color: #111;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.gamepay_intro_container {
+    padding: 0 5rem;
+}
+
+.curved-overlay {
+    position: absolute;
+    border-radius: 50% 50% 0 0;
+    background-color: #FFF;
+    left: -50%;
+    width: 200%;
+    height: 500px;
+    top: 95%;
+}
+
+/* CUREVE END */
+.gamepay_intro {
+    padding: 5rem 0;
+}
+
+.gamepay_intro h4 {
+    margin-bottom: 1rem;
+}
+
+.gamepay_image_row1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.gamepay_image_row2 {
+    padding: 0 5rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 1rem;
+}
+
+
+.problem_solution_container {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.gamepay_ending {
+    background: #fff;
+    padding: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+    color: #111;
+}
