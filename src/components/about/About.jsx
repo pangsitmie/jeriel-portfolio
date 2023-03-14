@@ -39,8 +39,9 @@ const About = () => {
           </div>
 
           <p className='description'>
-            As a skilled front-end developer with a passion for creativity and
-            design, I specialize in developing visually appealing and highly scalable digital products and experiences. My experience includes an internship at a well-known company and freelancing in the field, where I have gained expertise in building beautiful and accessible products for clients.
+            As a web developer I specialize in developing visually appealing and highly scalable digital products and experiences.
+            My experience includes an internship at a well-known company and freelancing in the field,
+            where I have gained expertise in building beautiful and accessible products for clients.
             <br /><br />
             With a commitment to delivering high-quality work and a strong focus on innovation, I am dedicated to exceeding my clients' expectations and ensuring that their digital presence is both engaging and user-friendly.
             <br /><br />
@@ -52,6 +53,10 @@ const About = () => {
           <ul className="tech__list">
             <li>
               <BiCheck className='tech__list-icon' />
+              <p>React</p>
+            </li>
+            <li>
+              <BiCheck className='tech__list-icon' />
               <p>Android</p>
             </li>
             <li>
@@ -60,11 +65,7 @@ const About = () => {
             </li>
             <li>
               <BiCheck className='tech__list-icon' />
-              <p>Python</p>
-            </li>
-            <li>
-              <BiCheck className='tech__list-icon' />
-              <p>React</p>
+              <p>Java Script</p>
             </li>
             <li>
               <BiCheck className='tech__list-icon' />
@@ -75,14 +76,9 @@ const About = () => {
               <p>Unity</p>
             </li>
           </ul>
-
-          {/* <a href="#contact" className='btn btn-primary'>Let's talk</a> */}
-
         </div>
       </div>
-
     </section>
-
   )
 }
 
