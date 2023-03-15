@@ -26,7 +26,14 @@ const Skill = () => {
               <article className="skill__details">
                 <BsPatchCheckFill className='skill__details-icon' />
                 <div>
-                  <h4>GraphQL</h4>
+                  <h4>JavaScript</h4>
+                  <small className='text-light'>Experienced</small>
+                </div>
+              </article>
+              <article className="skill__details">
+                <BsPatchCheckFill className='skill__details-icon' />
+                <div>
+                  <h4>TypeSript</h4>
                   <small className='text-light'>Intermediate</small>
                 </div>
               </article>
@@ -42,7 +49,14 @@ const Skill = () => {
               <article className="skill__details">
                 <BsPatchCheckFill className='skill__details-icon' />
                 <div>
-                  <h4>JavaScript</h4>
+                  <h4>Tailwind</h4>
+                  <small className='text-light'>Intermediate</small>
+                </div>
+              </article>
+              <article className="skill__details">
+                <BsPatchCheckFill className='skill__details-icon' />
+                <div>
+                  <h4>Styled Componenets</h4>
                   <small className='text-light'>Experienced</small>
                 </div>
               </article>
@@ -68,6 +82,13 @@ const Skill = () => {
                   <small className='text-light'>Experienced</small>
                 </div>
               </article>
+              <article className="skill__details">
+                <BsPatchCheckFill className='skill__details-icon' />
+                <div>
+                  <h4>Firebase</h4>
+                  <small className='text-light'>Experienced</small>
+                </div>
+              </article>
             </div>
             <div className='skill_column'>
               <article className="skill__details">
@@ -81,6 +102,13 @@ const Skill = () => {
                 <BsPatchCheckFill className='skill__details-icon' />
                 <div>
                   <h4>MVVM</h4>
+                  <small className='text-light'>Intermediate</small>
+                </div>
+              </article>
+              <article className="skill__details">
+                <BsPatchCheckFill className='skill__details-icon' />
+                <div>
+                  <h4>API</h4>
                   <small className='text-light'>Intermediate</small>
                 </div>
               </article>

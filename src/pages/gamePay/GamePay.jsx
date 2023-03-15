@@ -13,16 +13,20 @@ const GamePay = () => {
     return (
         <div>
             <div className={"gamepay_hero"}>
-                <h1>Helping restaurants, and retail
-                    stores attract customers with
-                    Uber Eats
-                </h1>
-                <h4 >
-                    GAME PAY
-                </h4>
-                <h4>
-                    WEB APP
-                </h4>
+                <div>
+                    <h1>
+                        SaaS web app that helps claw machine
+                        brands and stores manage
+                        <br />
+                        their business.
+                    </h1>
+                    <h4 >
+                        GAME PAY
+                    </h4>
+                    <h4>
+                        WEB APP
+                    </h4>
+                </div>
             </div>
 
 
@@ -32,28 +36,22 @@ const GamePay = () => {
                 </div>
                 <div className="curved">
                     <div className='gamepay_intro_container'>
-                        <div>
-                            <h1>
-                                Game Pay
-                            </h1>
-                            <a href="https://market-test-backstage.cloudprogrammingonline.com/">
-                                <h4>
-                                    Visit website <BiLinkExternal />
-                                </h4>
-                            </a>
-                        </div>
                         <div className='gamepay_intro'>
                             <div>
                                 <h4>
-                                    MANAGE CLAW MACHINE BUSINESS
+                                    INTRO
                                 </h4>
-                                <h3>
-                                    To bring the site to life, we extended Ubers illustration library to communicate key messaging throughout the experience.
-                                    <br />
-                                    The eats-specific color palette and distinct illustrative style give life to ideas and sets an inviting, helpful tone.
-                                </h3>
+                                <h2>
+                                    Game Pay is a <span> mobile payment solution for playing claw machines.</span>
+                                    While business owners can also manage and analyse their business more efficiently
+                                    through our <span>SaaS web app.</span>
+                                    <a href="https://market-test-backstage.cloudprogrammingonline.com/">
+                                        <h4>
+                                            Visit website <BiLinkExternal />
+                                        </h4>
+                                    </a>
+                                </h2>
                             </div>
-
                         </div>
                     </div>
 
