@@ -70,11 +70,11 @@ const GamePay = () => {
                             <div className='problem_solution_container'>
                                 <div className='problem_card'>
                                     <h3>Problem</h3>
-                                    <p>This should give you a quick overview This should give you a quick</p>
+                                    <p>How to reinvent claw machine business management & payment solution</p>
                                 </div>
                                 <div className='solution_card'>
                                     <h3>Solution</h3>
-                                    <p>This should give you a quick overview This should give you a quick</p>
+                                    <p>Utilizing IoT to monitor real-time machine data, and create a mobile payment solution</p>
                                 </div>
                             </div>
                         </div>

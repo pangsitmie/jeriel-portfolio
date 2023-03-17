@@ -39,15 +39,12 @@ const About = () => {
           </div>
 
           <p className='description'>
-            As a web developer I specialize in developing visually appealing and highly scalable digital products and experiences.
-            My experience includes an internship at a well-known company and freelancing in the field,
-            where I have gained expertise in building beautiful and accessible products for clients.
+            As a web developer, I specialize in creating visually appealing and highly scalable digital products and experiences.
+            I have gained valuable experience through an internship at a well-known company and by freelancing in the field, where I have honed my skills in building beautiful and accessible products for clients.
             <br /><br />
-            With a commitment to delivering high-quality work and a strong focus on innovation, I am dedicated to exceeding my clients' expectations and ensuring that their digital presence is both engaging and user-friendly.
+            I am committed to delivering high-quality work and innovative solutions that exceed my clients' expectations. With my expertise in developing visually appealing and scalable digital products, including websites and mobile apps, I help clients establish a strong and engaging online presence.
             <br /><br />
-            Whether you need a stunning website, a powerful mobile app, or a range of other digital solutions, I have the skills and expertise to deliver results that truly make a difference.
-            <br /><br />
-            Technologies I've been working with recently:
+            Recently, I have been working with various cutting-edge technologies to provide the best possible results.
           </p>
 
           <ul className="tech__list">
@@ -57,23 +54,15 @@ const About = () => {
             </li>
             <li>
               <BiCheck className='tech__list-icon' />
-              <p>Android</p>
+              <p>TypeScript</p>
             </li>
             <li>
               <BiCheck className='tech__list-icon' />
-              <p>Java</p>
+              <p>Styled Componenets</p>
             </li>
             <li>
               <BiCheck className='tech__list-icon' />
-              <p>Java Script</p>
-            </li>
-            <li>
-              <BiCheck className='tech__list-icon' />
-              <p>MySQL & GQL</p>
-            </li>
-            <li>
-              <BiCheck className='tech__list-icon' />
-              <p>Unity</p>
+              <p>Tailwind</p>
             </li>
           </ul>
         </div>

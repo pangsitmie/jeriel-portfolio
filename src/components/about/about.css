@@ -70,7 +70,8 @@
 
 .tech__list {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 50% 50%;
+    gap: 1rem;
 }
 
 .tech__list li {
