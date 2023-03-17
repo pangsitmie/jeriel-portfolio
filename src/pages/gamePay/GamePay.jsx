@@ -17,15 +17,14 @@ const GamePay = () => {
                     <h1>
                         SaaS web app that helps claw machine
                         brands and stores manage
-                        <br />
                         their business.
                     </h1>
-                    <h4 >
+                    <h4>
                         GAME PAY
                     </h4>
-                    <h4>
+                    <h5>
                         WEB APP
-                    </h4>
+                    </h5>
                 </div>
             </div>
 
@@ -96,17 +95,18 @@ const GamePay = () => {
                 <div className='gamepay_ending'>
                     <div>
                         <h4>
-                            EXPANDING REACH
+                            HOW WE DID IT
                         </h4>
                         <h2>
-                            Illustration & color
+                            TECHNOLOGIES USED IN THIS PROJECT
                         </h2>
                     </div>
                     <div>
                         <h4>
-                            To bring the site to life, we extended Ubers illustration library to communicate key messaging throughout the experience.
-                            <br />
-                            The eats-specific color palette and distinct illustrative style give life to ideas and sets an inviting, helpful tone.
+                            We start the developemtn by using <span className="black bold">Figma</span> for design, <span className="black bold">React.js</span> for front-end development,
+                            and Apollo <span className="black bold">GraphQL</span> for seamless client-server communication.
+                            We utilized the efficient <span className="black bold">React MUI</span> for layouting and styling, resulting in a professional and visually
+                            appealing user interface.
                         </h4>
                     </div>
                 </div>
